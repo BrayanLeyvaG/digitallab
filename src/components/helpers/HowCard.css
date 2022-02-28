@@ -1,0 +1,30 @@
+.all-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    width: 20rem;
+    text-align: center;
+}
+
+.circle-numb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    margin: 10px;
+    color: #58a6a2;
+}
+
+.all-card i{
+    font-size: 3em;
+}
+
+.all-card h5{
+    font-size: 1.2em;
+}
