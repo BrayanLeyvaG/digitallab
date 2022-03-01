@@ -5,3 +5,27 @@
     display: flex;
     align-items: center;}
 }
+
+.div-btn{
+    height: 50px;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-contactanos{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: #66C4BF;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-size: 2em;
+}
+
+.btn-contactanos:hover{
+    background-color: #60b3ae;
+    color: white;
+}

@@ -13,7 +13,9 @@ export const Herow = () => {
                 <Col sm={6} className="d-flex flex-column justify-content-center align-items-center">
                     <h2 className='fs-1'>¡Haz realidad tus ideas!</h2>
                     <p className="text-center fs-4">Nos dedicamos a la fabricación de productos mediante corte y grabado láser, así como corte de vinil y vinil textil. Entre los materiales que se pueden trabajar son el mdf, acrílico, madera, foamy, cartón, diferentes tipos de plásticos, tela, piel, entre otros.</p>
-                    <Button variant="primary" className="fs-4">Contáctanos</Button>{' '}
+                    <a href='#contacto'>
+                      <button  className='btn-contactanos'>Contáctanos</button>
+                    </a>
                 </Col >
             </Row>
         </Container>

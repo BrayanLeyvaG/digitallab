@@ -4,18 +4,75 @@
     padding: 200px 0;
 }
 
-.all-form{
-    background-color: rgba(255, 255, 255, 0.65);
+.cont-contact{
+    background-color: rgba(0, 0, 0, 0.65);
     border-radius: 30px;
     text-align: center;
     padding: 20px;
+    color: white;
 }
+
 
 .all-form h5{
     font-size: 2em;
+    color: #66C4BF;
 }
 
 .titulos-form{
     font-size: 1.3em;
     font-weight: 600;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.btn-enviar{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: #66C4BF;
+    border: 2px solid white;
+    padding: 5px 30px;
+    font-size: 1.3em;
+}
+
+
+.btn-enviar:hover{
+    background-color: #60b3ae;
+    color: white;
+}
+
+
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: justify ;
+    align-items: center;
+}
+
+.contact-list img{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.contact-list li{
+    list-style: none;
+    margin: 8px 0;
+}
+
+.contact-list i{
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #66C4BF;
+}
+
+.contact-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-list a:hover{
+    color: #66C4BF;
 }
