@@ -1,6 +1,6 @@
 import './App.css';
-import { Contactw } from './components/Contactw';
-import { Galeryw } from './components/Galeryw';
+import ContactForm from './components/Contactw';
+import { Footerw } from './components/Footerw';
 import { Herow } from './components/Herow';
 import { Howw } from './components/Howw';
 import { Navbarw } from './components/Navbar';
@@ -16,9 +16,9 @@ function App() {
           <Herow/>
           <Servicesw/>
         </div>
-        <Galeryw/>
         <Howw/>
-        <Contactw/>
+        <ContactForm/>
+        <Footerw/>
 
     </div>
   );

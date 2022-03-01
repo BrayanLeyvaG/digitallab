@@ -17,9 +17,9 @@ export const Navbarw = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                <Nav className="me-auto" className="justify-content-end" className="fs-2">
+                <Nav className="me-auto" className="justify-content-end" className="fs-4">
                     <Nav.Link href="#servicios" >Servicios</Nav.Link>
-                    <Nav.Link href="#galeria">Galería</Nav.Link>
+                    <Nav.Link href="#como">¿Cómo pedir?</Nav.Link>
                     <Nav.Link href="#contacto">Contacto</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

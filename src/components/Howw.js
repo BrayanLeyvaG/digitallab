@@ -5,7 +5,7 @@ import './Howw.css'
 
 export const Howw = () => {
   return (
-    <div className='all-how'>
+    <div className='all-how' id='como'>
         <h4 className='titulo-how'>¿Cómo iniciar un pedido?</h4>
         <Container className="d-flex justify-content-center align-items-center">
           <div className='how-cards'>

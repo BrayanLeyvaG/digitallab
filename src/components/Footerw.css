@@ -1,0 +1,11 @@
+.all-footer{
+    background-color: #212529;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.all-footer a{
+    color: gray;
+    text-decoration: none;
+}

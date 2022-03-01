@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel'
 export const ProductsCard = ({imagen1, imagen2, imagen3, titulo, parrafo}) => {
   return (
     <Card style={{ width: '18rem'}} className="card text-center">
-        <Carousel>
+<Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"

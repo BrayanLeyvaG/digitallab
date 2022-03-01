@@ -23,7 +23,7 @@ export const Servicesw = () => {
                 imagen2={sublimacion2} 
                 imagen3={sublimacion3} 
                 titulo='Sublimación'
-                parrafo='Se puede utilizar en diseño de interiores, pero también en la fabricación de maquetas. Se puede trabajar sobre material de tipo madera, acrilico y MDF'
+                parrafo='Tenemos una amplia gama de servicios en sublimacion: Tazas, Playeras, Mouse Pad, Toallas de mano, portagafette, Mantas, Cojines, etc.'
                 />
                 <ProductsCard 
                 imagen1={corte1}
@@ -37,7 +37,7 @@ export const Servicesw = () => {
                 imagen2={vinil2} 
                 imagen3={vinil3} 
                 titulo='Vinil'
-                parrafo='Se puede utilizar en diseño de interiores, pero también en la fabricación de maquetas. Se puede trabajar sobre material de tipo madera, acrilico y MDF'
+                parrafo='Es la forma más facil de aplicar el diseño más complejo a cualquier superficie. Desde autos hasta laptops o puertas y ventanas, tienes muchas opciones para encontrar tu vinil perfecto.'
                 />
 
             </div>

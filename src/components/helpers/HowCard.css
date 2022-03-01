@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.8em;
+    font-size: 1.2em;
     width: 20rem;
     text-align: center;
 }
@@ -12,8 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 60px;
+    height: 35px;
+    width: 35px;
     background-color: white;
     border-radius: 50%;
     font-weight: 500;
