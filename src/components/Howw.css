@@ -18,3 +18,14 @@
     text-align: center;
     margin-bottom: 50px;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .how-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo-how{
+        padding-top: 200px;
+    }
+}

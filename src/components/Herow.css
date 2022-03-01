@@ -1,15 +1,21 @@
+.hero-cont{
+    padding: 150px 0;
 
-@media only screen and (min-width: 900px) {
-    .hero-cont{
-    height: 50vh;
-    display: flex;
-    align-items: center;}
 }
+
+@media only screen and (max-width: 900px) {
+    .hero-cont{
+    
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    }
+}
+
 
 .div-btn{
     height: 50px;
     width: 40%;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,4 +34,11 @@
 .btn-contactanos:hover{
     background-color: #60b3ae;
     color: white;
+}
+
+.bg-img{
+    background-image: url(../img/blob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

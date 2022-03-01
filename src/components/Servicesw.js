@@ -15,9 +15,9 @@ import vinil3 from '../img/vinil3.jpg'
 export const Servicesw = () => {
   return (
     <div className='all-services' id='servicios'>
-        <Container>
-            <h3 className='text-center fs-1'>Servicios</h3>
-            <div className='d-flex justify-content-around'>
+        <Container className='serv-box'>
+            <h3 className='text-center'>Servicios</h3>
+            <div className='cards-service'>
                 <ProductsCard 
                 imagen1={sublimacion1}
                 imagen2={sublimacion2} 
